@@ -86,10 +86,6 @@
     
 
     
-      <!-- top start (article top hot config) -->
-      <link rel="stylesheet" href="/css/top.css"/>
-      <!-- top end -->
-    
 
     
       <!-- ThemeColor start -->
@@ -245,6 +241,17 @@
           
           
           <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
             <a href="/archive/">
               
               归档
@@ -256,9 +263,9 @@
           
           
           <li>
-            <a href="/about/">
+            <a href="/categories/">
               
-              关于
+              分类
               
               
             </a>
@@ -272,17 +279,6 @@
             <a href="/tags/">
               
               标签
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
-            <a href="/categories/">
-              
-              分类
               
               
             </a>
@@ -473,14 +469,6 @@
 
 <div class="post-preview">
   
-  <!-- top start (article top hot config) -->
-  
-  <div class="top">
-    <div class="iconfont icon-hot animated infinite tada"></div>
-  </div>
-  
-  <!-- top end -->
-  
 
   <a href="/en/Hexo-Theme-LiveMyLife/">
     <h2 class="post-title">
@@ -512,10 +500,6 @@ This LiveMyLife theme created by Vincent modified from the original Porter YenYu
 
 <div class="post-preview">
   
-  <!-- top start (article top hot config) -->
-  
-  <!-- top end -->
-  
 
   <a href="/诗歌/纽约比加州时间3个小时/">
     <h2 class="post-title">
@@ -525,14 +509,7 @@ This LiveMyLife theme created by Vincent modified from the original Porter YenYu
       
     </h3>
     <div class="post-content-preview">
-      纽约时间比加州时间早三个小时
-New York is 3 hours ahead of California,
-纽约时间比加州时间早三个小时，
-but it does not make California slow.
-但加州时间并没有变慢。
-Someone graduated at the age of 22,
-有人22岁就毕业了，
-but waited 5 years before se......
+      纽约时间比加州时间早三个小时New York is 3 hours ahead of California,纽约时间比加州时间早三个小时，but it does not make California slow.但加州时间并没有变慢。Someone graduated at the age of 22,有人22岁就毕业了，but waited 5 years before securing ......
     </div>
   </a>
   
@@ -551,10 +528,6 @@ but waited 5 years before se......
 <hr>
 
 <div class="post-preview">
-  
-  <!-- top start (article top hot config) -->
-  
-  <!-- top end -->
   
 
   <a href="/诗歌/不可征服/">
@@ -565,16 +538,9 @@ but waited 5 years before se......
       
     </h3>
     <div class="post-content-preview">
-      Invictus 不可征服
-Out of the night that covers me,
-Black as the pit from pole to pole,
-I thank whatever gods may be
-For my unconquerable soul.
-夜色将我的身体笼罩，
-宛如漆黑一团的地窖,
-感谢不知名号的众神
-赐予我不可征服的魂。
-In the fell clu......
+      Invictus 不可征服Out of the night that covers me,Black as the pit from pole to pole,I thank whatever gods may beFor my unconquerable soul. 
+夜色将我的身体笼罩，宛如漆黑一团的地窖,感谢不知名号的众神赐予我不可征服的魂。
+In the fell clutch of......
     </div>
   </a>
   
@@ -593,10 +559,6 @@ In the fell clu......
 <hr>
 
 <div class="post-preview">
-  
-  <!-- top start (article top hot config) -->
-  
-  <!-- top end -->
   
 
   <a href="/cn/Hexo-Theme-LiveMyLife/">
@@ -611,9 +573,7 @@ In the fell clu......
 移植 Hux Blog 的主题，感谢 Huxpro 设计了如此完美的主题。
 由 Vincent 创建的 LiveMyLife 的主题修改来源 YenYuHsuan，参考主题 dusign、Utone，感谢 dusign、Utone。
 
-仓库
-Github 仓库地址：https://github.com/V-Vincen/hexo-theme-livemylife
-Gitee 仓库地址：ht......
+仓库Github 仓库地址：https://github.com/V-Vincen/hexo-theme-livemylifeGitee 仓库地址：http......
     </div>
   </a>
   
@@ -1346,5 +1306,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
