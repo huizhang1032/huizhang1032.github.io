@@ -37,6 +37,20 @@
   </url>
   
   <url>
+    <loc>http://hejingzhang.com/cn/Hexo-Theme-LiveMyLife/</loc>
+    
+    <lastmod>2020-04-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hejingzhang.com/en/Hexo-Theme-LiveMyLife/</loc>
+    
+    <lastmod>2020-04-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://hejingzhang.com/archive/index.html</loc>
     
     <lastmod>2017-03-20</lastmod>
@@ -60,6 +74,13 @@
 
   
   <url>
+    <loc>http://hejingzhang.com/tags/Hexo-Theme-LiveMyLife/</loc>
+    <lastmod>2022-04-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://hejingzhang.com/tags/%E8%AF%97%E6%AD%8C/</loc>
     <lastmod>2022-04-19</lastmod>
     <changefreq>daily</changefreq>
@@ -67,6 +88,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://hejingzhang.com/categories/Hexo-Theme-LiveMyLife/</loc>
+    <lastmod>2022-04-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>http://hejingzhang.com/categories/%E8%AF%97%E6%AD%8C/</loc>
